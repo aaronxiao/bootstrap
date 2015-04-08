@@ -50,7 +50,7 @@
     }
 
     var initializing   = this.affixed == null
-    var colliderTop    = initializing ? scrollTop : position.top
+    var colliderTop    = scrollTop
     var colliderHeight = initializing ? targetHeight : height
 
     if (offsetTop != null && scrollTop <= offsetTop) return 'top'
